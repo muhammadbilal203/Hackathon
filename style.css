@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid>.nav>li{
+    font-size: 18px;
+}
+.container-fluid>.nav>.li>a{
+    border: 2px solid rgb(43, 43, 171);
+    color: white;
+    border-radius: 5px;
+}
+.container-fluid{
+    border: 2px solid white;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.home{
+    background-image: url(../../../Downloads/h1_hero.png);
+    background-size: cover;
+    z-index: 1;
+   
+}
+.home>.nav{
+    z-index: 2;
+}
+ .head{
+    width: 100%;
+    background-image: url(../../../Downloads/about2.png);  
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+.medical{
+    background-color: rgba(91, 91, 247,0.1);
+    text-align: center;
+   
+}
+.medical1{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    
+}
+.medical1>.card>i{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
+.medical1>.card{
+    border-radius: 15px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(74, 74, 211);
+}
+.card3>.card1>img{
+    width: 300px;
+    height: 270px;
+}
+.i{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.i>.i2>img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.age{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card3{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.card3>.card1:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    background-color: skyblue;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+
+form>input,select,textarea{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+} 
+
+
+.form>input:focus,select:focus{
+    border-color: black;
+    outline: none;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.end{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.last{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.last>.last2>i:hover{
+    transform: scale(1.4);
+    transition: 0.5s ease;
+}
